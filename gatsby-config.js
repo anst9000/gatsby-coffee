@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Regulear Joe's`,
+    title: `Andy's Cafe`,
     description: `An application coffe shop where you can buy coffe and other beverages.`,
     author: `Anders Strömberg`,
   },
