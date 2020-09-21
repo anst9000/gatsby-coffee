@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'gatsby';
-import logo from '../../images/logo.png';
+import logo from '../../images/logo3.png';
 import { FaCartArrowDown } from 'react-icons/fa';
 
 
@@ -38,7 +38,7 @@ export default class Navbar extends Component {
     return (
     <nav className="navbar navbar-expand-sm bg-light navbar-light">
       <Link to="/" className="navbar-brand">
-        <img src={logo} alt="logo" />
+        <img className="logo ml-2" src={logo} alt="logo" />
         {/*
           https://www.iconfinder.com/icons/185113/coffee_streamline_icon
           Creative Commons (Attribution 3.0 Unported);
