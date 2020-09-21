@@ -10,8 +10,8 @@ import {
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
+    <h1>Andy's Cafe</h1>
+    <p>Why not sit down and have a cup of fresh new coffee?</p>
     <FaGulp />
   </Layout>
 )
