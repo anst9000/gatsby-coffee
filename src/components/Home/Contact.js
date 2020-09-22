@@ -9,6 +9,7 @@ export default function Contact() {
         <div className="col-10 col-sm-8 col-md-6 mx-auto">
           <form action="https://formspree.io/acke@acke.site" method="POST">
             {/* Name */}
+            {/* ==== */}
             <div className="form-group">
               <label htmlFor="name">Name</label>
               <input
@@ -20,6 +21,7 @@ export default function Contact() {
               />
             </div>
             {/* Email */}
+            {/* ===== */}
             <div className="form-group">
               <label htmlFor="email">Email</label>
               <input
@@ -31,6 +33,7 @@ export default function Contact() {
               />
             </div>
             {/* Description */}
+            {/* =========== */}
             <div className="form-group">
               <label htmlFor="description">Description</label>
               <textarea
@@ -42,6 +45,7 @@ export default function Contact() {
               />
             </div>
             {/* Submit button */}
+            {/* ============= */}
             <button
               type="submit"
               className="btn btn-yellow btn-block text-capitalize mt-5"
